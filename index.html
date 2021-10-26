@@ -1,6 +1,73 @@
 <html>
     <head></head>
     <body>
-        <button id="submit" onclick="document.getElementById('submit').style.background='blue'">Click Here</button>
+        <h2>Registation Form:</h2>
+        <form action="">
+            <label>Name: </label>
+            <input type="text" name="username" placeholder="Enter Your Name"> <br><br>
+            <label>Email: </label>
+            <input type="email" name="email" placeholder="Enter Your Email ID"> <br><br>
+            <label>Gender: </label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female<br><br>
+            <label>Password: </label>
+            <input type="password" name="password" placeholder="Enter Your Password"><br><br>
+            <button type="submit">Register</button>
+        </form>
+        <hr>
+        <h2>Users Data:</h2>
+        <table border="1" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Designation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="text-align: center;">
+                    <td>John</td>
+                    <td>john@gmail.com</td>
+                    <td>Project Manager</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>David</td>
+                    <td>david@gmail.com</td>
+                    <td>Senior Developer</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>Steven</td>
+                    <td>steven@gmail.com</td>
+                    <td>Designer</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>Tina</td>
+                    <td>tina@gmail.com</td>
+                    <td>Developer</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>Ali</td>
+                    <td>ali@gmail.com</td>
+                    <td>Developer</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <h2>Users: </h2>
+        <ol>
+            <li>Helen</li>
+            <li>Stephen</li>
+            <li>John Doe</li>
+            <li>David</li>
+            <li>Tina</li>
+            <li>Monica</li>
+            <li>Ali</li>
+            <li>Serena</li>
+            <li>Justin</li>
+            <li>Tom</li>
+        </ol>
+
+        <script src="index.js"></script>  
     </body>
 </html>
